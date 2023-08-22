@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Challenge || Materialize CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+
+    <!--navigation -->
+    <nav>
+        <header class="nav-wrapper #ce93d8 purple lighten-3">
+            <d class="row">
+                <div class="col s12 m14 l18">
+                    <ul class="left">
+                        <li>
+                            <div class="logo"></div>
+                    </ul>
+                    <ul class="right">
+                        <li><a href="index" target="_blank">Home</a></li>
+                        <li><a href="https://www.youtube.com/@NoaKirelOfficial" target="_blank"><i
+                                    class="material-icons">audiotrack</i></a></li>
+                    </ul>
+                </div>
+            </d>
+        </header>
+    </nav>
+
+    <!-- intro -->
+    <div class="container" id="container_intro">
+        <img src="https://images.ctfassets.net/tyagww523muq/1UvzGTSGveCEgHEN4l75Fs/dc8010afebe9cd21cb04907947ffecf4/GettyImages-1405162203.jpeg?w=1045&h=588&q=90&fit=fill&f=faces"
+            alt="">
+        <div id="aboutNoa">
+            <h2 class="header">Israeli pop sensation </br> & superstar</h2>
+        </div>
+    </div>
+    </div>
+
+    <!-- short biography cards --->
+    <div class="row">
+        <div class="col m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://lastfm.freetls.fastly.net/i/u/500x500/d14e17487bef24f679bc96250c2d243a.jpg">
+                    <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Childhhod & Early
+                        Career</span>
+                </div>
+                <div class="card-content">
+                    <p>Noa Kirel was born on <i>April 10, 2001 </i>, in Ra'anana, Israel. She released her debut single
+                        at the age of 14 and signed with Atlantic Records when she was 18. The future pop icon was
+                        discovered on YouTube leading to her <i>2017 debut single "Drum."</i></p>
+                </div>
+                <div class="card-action">
+                    <a href="https://www.youtube.com/watch?v=TqWbfnerkKI" target="_blank">Listen to the "Drum"</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col m4">
+            <div class="card">
+                <div class="card-image">
+                    <img
+                        src="https://lastfm.freetls.fastly.net/i/u/770x0/fc39f8046ceff5d5292e0ca14e655cb0.jpg#fc39f8046ceff5d5292e0ca14e655cb0">
+                    <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Greatest Hits</span>
+                </div>
+                <div class="card-content">
+                    <p> Since 2017 Noa released hit singles like <i>"Million Dollar," "Made of Gold," and "Please Don't
+                            Suck," </i>. In 2018, she teamed up with Israeli singer Static & Ben El for the song
+                        <i>"Tudo Bom,"</i> which helped Kirel expand her fanbase beyond Israel.
+                    </p>
+                </div>
+                <div class="card-action">
+                    <a href="https://www.youtube.com/watch?v=Y_OLslE3bX8" target="_blank">Listen to the "Tudo Bom"</a>
+                </div>
+            </div>
+        </div>
+        <div class="col m4">
+            <div class="card">
+                <div class="card-image">
+                    <img
+                        src="https://lastfm.freetls.fastly.net/i/u/770x0/a957a0cd5574e4b9e2100606168ae184.jpg#a957a0cd5574e4b9e2100606168ae184">
+                    <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Awards &
+                        Recognition</span>
+                </div>
+                <div class="card-content">
+                    <p>By 2023 Noa’s racked up a plenty of awards, including ‘Best Israeli Act’ at the MTV Europe Music
+                        Awards. In the summer of 2022, she performed in front of 35,000 people in Tel Aviv in her own
+                        big park concert - a first for any young Israeli artist.</p>
+                </div>
+                <div class="card-action">
+                    <a href="https://www.youtube.com/watch?v=q0F9cLmD_e4" target="_blank">Listen to Noa in HaYarkon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Eurovision section --->
+    <div class="container" id="eurocontainer">
+        <img id="euroNoa"
+            src="https://eurovision.tv/sites/default/files/styles/gallery_slider/public/media/image/2023-05/2023.05.12%20Corinne%20Cumming%20-%20EBU-6284.jpg?itok=lKj4f_Uo"
+            alt="" style="width:100%;">
+        <div class="top-right"><a id="Eurovision" href="https://www.youtube.com/watch?v=Z3mIcCllJXY" target="_blank">You
+                wanna see </br> her dance?!</a></div>
+    </div>
+
+    <!-- Eurovision content --->
+    <p align=justify id="textbox"><b><i>Epic Eurovision 2023 performance </i></br> In 2023 Noa Kirel represented Israel
+            on Eurovision Song Contest with her song <i>"Unicorn"</i>. She came in third with 362 points, which was
+            Israel’s best Eurovision showing since Netta Barzilai won the competition in 2018 with “Toy". </b></p>
+
+    <!-- Latest Release --->
+    <p align=justify id="textbox"><b>By August 2023 Noa Kirel's latest release is <i>Deja Vu</i>. Young star keeps
+            singing, surprising and inspiring hundreds of people in Israel and abroad!</b></p>
+
+    <footer class="page-footer #ce93d8 purple lighten-3">
+        <div class="container">
+            <div class="row">
+                <div class="col m6">
+                    <p id="signature">Liya Tsipenyuk @</p>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
