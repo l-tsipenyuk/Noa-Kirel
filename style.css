@@ -93,12 +93,13 @@ img {
 }
 
 /* Eurovision content */
-#textbox {
+.info {
     background-color: #b8a9c9;
     border-radius: 4px;
     font-size: 18px;
     padding: 15px;
     margin: 5px;
+    text-align:justify;
 }
 
 strong {

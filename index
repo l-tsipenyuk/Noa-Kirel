@@ -124,15 +124,24 @@
         </div>
 
         <!-- Eurovision content --->
-        <p align=justify id="textbox"><b><i>Epic Eurovision 2023 performance </i></br> In 2023 Noa Kirel represented
-                Israel
-                on Eurovision Song Contest with her song <strong>"Unicorn"</strong>. She came in third with 362 points, which was
-                Israel’s best Eurovision showing since Netta Barzilai won the competition in 2018 with “Toy". </b></p>
+        <article>
+            <p class="info"><b><i>Epic Eurovision 2023 performance </i></br> In 2023 Noa Kirel represented
+                    Israel
+                    on Eurovision Song Contest with her song <strong>"Unicorn"</strong>. She came in third with 362
+                    points, which was
+                    Israel’s best Eurovision showing since <a href="https://www.youtube.com/watch?v=q0F9cLmD_e4"
+                        target="_blank">Netta Barzilai </a> won the contest in 2018 with “Toy". </b>
+            </p>
 
-        <!-- Latest Release --->
-        <p align=justify id="textbox"><b>By August 2023 Noa Kirel's latest release is <i>Deja Vu</i>. Young star keeps
-                singing, surprising and inspiring hundreds of people in Israel and abroad!</b></p>
+            <!-- Latest Release --->
+            <p class="info"><b>By August 2023 Noa Kirel's latest release is <strong>"Deja Vu"</strong>. Young star
+                    keeps
+                    singing, surprising and inspiring hundreds of people in Israel and abroad!</b></p>
+        </article>
     </main>
+
+
+
     <footer class="page-footer #ce93d8 purple lighten-3">
         <div class="container">
             <div class="row">
