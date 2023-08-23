@@ -2,11 +2,16 @@
 <html lang="en">
 
 <head>
-    <title>Netta Barzilai</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Challenge || Netta</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew&family=Shadows+Into+Light+Two&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
@@ -15,19 +20,74 @@
 </head>
 
 <body>
-    <nav>
-        <header class="nav-wrapper #ce93d8 purple lighten-3">
-            <d class="row">
-                <div class="col s12 m14 l18">
-                    <ul class="right" id="netta">
-                        <li><a href="index" target=>Home</a></li>
-                        <li><a href="https://www.youtube.com/channel/UC1-uIm6HCLwNqKpLYVvEE5w" target="_blank"><i
-                                    class="material-icons">audiotrack</i></a></li>
-                    </ul>
-                </div>
-            </d>
-        </header>
+
+    <!--navigation -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script>
+        $(document).ready(function () {
+            $(".sidenav").sidenav();
+        });
+    </script>
+
+    <nav class="#ce93d8 purple lighten-3" style="padding:0px 10px;">
+        <div class="nav-wrapper">
+            <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index" target=>Home</a></li>
+                <li><a href="https://www.youtube.com/@NoaKirelOfficial" target="_blank"><i
+                            class="material-icons">audiotrack</i></a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
-    <p>It's Netta!</p>
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index" target=>Home</a></li>
+        <li><a href="index-hebrew" target=>עברית</a></li>
+        <li><a href="https://www.youtube.com/@NoaKirelOfficial" target="_blank"><i
+                    class="material-icons">audiotrack</i></a>
+        </li>
+    </ul>
+
+    <main>
+        <article>
+            <h1 id="Netta">Glorious Victory: Israel wins Eurovision 2018</h1>
+            <p class="info"><b><i>
+                        Netta Barzilai's victory in the Eurovision Song Contest 2018 marked a significant moment for
+                        both
+                        Israel and the
+                        competition itself. Her energetic and empowering performance of the song "Toy" captured the
+                        hearts
+                        of viewers and
+                        showcased her unique vocal talents. Netta's win not only celebrated her individuality but also
+                        highlighted the diversity
+                        of musical styles within the Eurovision platform. </b>
+            </p>
+
+            <div class="container" id="eurocontainer">
+                <div class="col s12 m14 l18">
+
+                    <iframe width="550" height="440" src="https://www.youtube.com/embed/84LBjXaeKk4">
+                    </iframe>
+
+
+                    <footer class="page-footer #ce93d8 purple lighten-3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col m6">
+                                    <p id="signature">Liya Tsipenyuk @</p>
+                                </div>
+                            </div>
+                        </div>
+                        <script
+                            src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </body>

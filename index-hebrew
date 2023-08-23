@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Challenge || Materialize CSS</title>
+    <title>Tech Challenge || NoaHeb</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew&family=Shadows+Into+Light+Two&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
@@ -20,27 +22,42 @@
 <body>
 
     <!--navigation -->
-    <nav>
-        <header class="nav-wrapper #ce93d8 purple lighten-3">
-            <d class="row">
-                <div class="col s12 m14 l18">
-                    <ul class="left">
-                        <li>
-                            <div class="logo"></div>
-                    </ul>
-                    <ul class="right">
-                        <li>
-                            <div class="flag"></div>
-                        <li><a href="index" target=>Home</a></li>
-                        <li><a href="index" target=>English</a></li>
-                        <li><a href="https://www.youtube.com/@NoaKirelOfficial" target="_blank"><i
-                                    class="material-icons">audiotrack</i></a></li>
-                    </ul>
-                </div>
 
-            </d>
-        </header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script>
+        $(document).ready(function () {
+            $(".sidenav").sidenav();
+        });
+    </script>
+
+    <nav class="#ce93d8 purple lighten-3" style="padding:0px 10px;">
+        <div class="nav-wrapper">
+            <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index" target=>Home</a></li>
+                <li><a href="index" target=>English</a></li>
+                <li><a href="https://www.youtube.com/@NoaKirelOfficial" target="_blank"><i
+                            class="material-icons">audiotrack</i></a>
+                </li>
+            </ul>
+        </div>
     </nav>
+
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index" target=>Home</a></li>
+        <li><a href="index-hebrew" target=>English</a></li>
+        <li><a href="https://www.youtube.com/@NoaKirelOfficial" target="_blank"><i
+                    class="material-icons">audiotrack</i></a>
+        </li>
+    </ul>
+
     <main>
         <!-- intro -->
         <div class="container" id="container_intro">
@@ -50,7 +67,7 @@
             <img src="https://images.ctfassets.net/tyagww523muq/1UvzGTSGveCEgHEN4l75Fs/dc8010afebe9cd21cb04907947ffecf4/GettyImages-1405162203.jpeg?w=1045&h=588&q=90&fit=fill&f=faces"
                 alt="">
             <div id="aboutNoa">
-                <h2 class="header">Israeli pop sensation </br> & superstar</h2>
+                <h2 class="header">סנסציה פופ ישראלית וכוכבת</h2>
             </div>
         </div>
 
@@ -60,14 +77,13 @@
                 <div class="card">
                     <div class="card-image">
                         <img src="https://lastfm.freetls.fastly.net/i/u/500x500/d14e17487bef24f679bc96250c2d243a.jpg">
-                        <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Childhhod & Early
-                            Career</span>
+                        <span class="card-title" id="cardtitleheb" style="width:100%; background: rgba(0, 0, 0, 0.5);">ילדות והתחלת
+                            הקריירה</span>
                     </div>
-                    <div class="card-content">
-                        <p>Noa Kirel was born on <i>April 10, 2001 </i>, in Ra'anana, Israel. She released her debut
-                            single
-                            at the age of 14 and signed with Atlantic Records when she was 18. The future pop icon was
-                            discovered on YouTube leading to her <i>2017 debut single "Drum."</i></p>
+                    <div class="card-content" id="cardheb">
+                        <p>נועה קירל נולדה ב-10 באפריל 2001 ברעננה, ישראל. היא הוציאה את השיר הבכורה שלה בגיל 14 וחתמה
+                            עם Atlantic Records בגיל 18.
+                            האייקון הפופ העתידי נגלתה ב-YouTube, שמה הגיע ב-2017 עם השיר הבכורה "Drum".</p>
                     </div>
                     <div class="card-action">
                         <a href="https://www.youtube.com/watch?v=TqWbfnerkKI" target="_blank">Listen to the "Drum"</a>
@@ -80,14 +96,13 @@
                     <div class="card-image">
                         <img
                             src="https://lastfm.freetls.fastly.net/i/u/770x0/fc39f8046ceff5d5292e0ca14e655cb0.jpg#fc39f8046ceff5d5292e0ca14e655cb0">
-                        <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Greatest
-                            Hits</span>
+                        <span class="card-title" id="cardtitleheb2" style="width:100%; background: rgba(0, 0, 0, 0.5);">שיאי הלהיטים</span>
                     </div>
-                    <div class="card-content">
-                        <p> Since 2017 Noa released hit singles like <i>"Million Dollar," "Made of Gold," and "Please
-                                Don't
-                                Suck," </i>. In 2018, she teamed up with Israeli singer Static & Ben El for the song
-                            <i>"Tudo Bom,"</i> which helped Kirel expand her fanbase beyond Israel.
+                    <div class="card-content" id="cardheb2">
+                        <p> מאז 2017 נועה הוציאה סינגלים מצליחים כמו "Million Dollar," "Made of Gold," ו-"Please Don't
+                            Suck". בשנת 2018, היא שתפה
+                            כוחות עם הזמרים הישראלים Static & Ben El לשיר "Tudo Bom," שסייע לקירל להרחיב את קהל הידידים
+                            שלה מעבר לישראל.
                         </p>
                     </div>
                     <div class="card-action">
@@ -101,15 +116,13 @@
                     <div class="card-image">
                         <img
                             src="https://lastfm.freetls.fastly.net/i/u/770x0/a957a0cd5574e4b9e2100606168ae184.jpg#a957a0cd5574e4b9e2100606168ae184">
-                        <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Awards &
-                            Recognition</span>
+                        <span class="card-title" id="cardtitleheb3" style="width:100%; background: rgba(0, 0, 0, 0.5);">פרסים
+                            והיכרות</span>
                     </div>
-                    <div class="card-content">
-                        <p>By 2023 Noa’s racked up a plenty of awards, including ‘Best Israeli Act’ at the MTV Europe
-                            Music
-                            Awards. In the summer of 2022, she performed in front of 35,000 people in Tel Aviv in her
-                            own
-                            big park concert - a first for any young Israeli artist.</p>
+                    <div class="card-content" id="cardheb3">
+                        <p>עד 2023 נועה זכתה למספר רב של פרסים, כולל 'Best Israeli Act' בטקס פרסי MTV Europe Music
+                            Awards. בקיץ של 2022, היא ביצעה
+                            לפני 35,000 איש בתל אביב בהופעת הפארק הגדולה שלה - הראשונה של כל אמן צעיר ישראלי.</p>
                     </div>
                     <div class="card-action">
                         <a href="https://www.youtube.com/watch?v=q0F9cLmD_e4" target="_blank">Listen to Noa in
@@ -119,34 +132,36 @@
             </div>
         </div>
 
-        <!-- Eurovision section --->
-        <div class="container" id="eurocontainer">
-            <!--   <img id="euroNoa"
-                src="https://eurovision.tv/sites/default/files/styles/gallery_slider/public/media/image/2023-05/2023.05.12%20Corinne%20Cumming%20-%20EBU-6284.jpg?itok=lKj4f_Uo"
-                alt="" style="width:100%;"> -->
-            <iframe width="550" height="400" src="https://www.youtube.com/embed/Z3mIcCllJXY">
-            </iframe>
-            <div class="top-right"><a id="Eurovision" href="https://www.youtube.com/watch?v=Z3mIcCllJXY"
-                    target="_blank">You
-                    wanna see </br> her dance?!</a></div>
-        </div>
-
-
-
-        <!-- Eurovision content --->
         <article>
-            <p class="info"><b><i>Epic Eurovision 2023 performance </i></br> In 2023 Noa Kirel represented
-                    Israel
-                    on Eurovision Song Contest with her song <strong>"Unicorn"</strong>. She came in third with 362
-                    points, which was
-                    Israel’s best Eurovision showing since <a href="index-netta">Netta Barzilai </a> won the contest in
-                    2018 with “Toy". </b>
+            <div class="top-right" id="Eurovision">
+                <p>You
+                    wanna see her dance?!</a></p>
+            </div>
+            </div>
             </p>
 
-            <!-- Latest Release --->
-            <p class="info"><b>By August 2023 Noa Kirel's latest release is <strong>"Deja Vu"</strong>. Young star
-                    keeps
-                    singing, surprising and inspiring hundreds of people in Israel and abroad!</b></p>
+            <!-- Eurovision section --->
+            <div class="container" id="eurocontainer">
+                <div class="col s12 m14 l18">
+
+                    <iframe width="550" height="440" src="https://www.youtube.com/embed/Z3mIcCllJXY">
+                    </iframe>
+
+                </div>
+
+                <!-- Eurovision content --->
+
+
+                <p class="info"><b><i> הופעת האירוויזיון האפית של 2023</i></br> בשנת 2023 נועה קירל נציגה את ישראל
+                        בתחרות שירי האירוויזיון עם השיר החזק "Unicorn". היא סיימה במקום השלישי עם 362 נקודות,
+                        וזה היה הופעת ישראל הטובה ביותר באירוויזיון מאז שנטה ברזילי זכתה בתחרות ב-2018 עם השיר "Toy". <a
+                            href="index-netta">(קצת נוסף על נטע ברזילי)</a> </b>
+                </p>
+
+                <!-- Latest Release --->
+                <p class="info"><b>עד אוגוסט 2023, השיר האחרון של נועה קירל הוא "דה ז'ה וו". הכוכבה הצעירה ממשיכה לשיר,
+                        להפתיע ולהשרות מאות אנשים בישראל
+                        ובחו"ל</b></p>
         </article>
     </main>
 

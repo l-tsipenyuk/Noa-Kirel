@@ -6,15 +6,6 @@ html {
     background-color: rgba(170, 85, 133, 0.4);
 }
 
-/*navigation */
-.nav {
-    display: flex;
-    align-items: center;
-    background-color: #eee;
-    position: fixed;
-}
-
-
 
 .logo {
     background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHFob3l4eG9hM2s3bjRxYzN5NjB3YmppbTQwOTl6YTh5NDJzMzlvZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4LodJPlAQKq651PVk2/giphy.gif");
@@ -25,18 +16,17 @@ html {
     background-position: center;
 }
 
-.flag {
-    background-image: url("https: //img.freepik.com/premium-vector/flag-israel_628407-684.jpg");
-    width: 90px;
-    height: 65px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center
-}
+
 
 /*intro */
 #container_intro {
     position: relative;
+}
+
+#container_introHEB {
+    position: relative;
+    text-align: right;
+    font-family: "Noto Sans Hebrew", sans-serif;
 }
 
 .header {
@@ -64,6 +54,12 @@ img {
     clear: both;
 }
 
+#Netta {
+    font-size: 70px;
+    font-family: "Shadows Into Light Two", Georgia, cursive;
+    text-color: purple;
+}
+
 /* short biography cards */
 .card {
     width: 75%;
@@ -78,6 +74,34 @@ img {
     transition: all 1s;
 }
 
+/*for cards in Hebrew*/
+
+#cardtitleheb {
+    text-align: right;
+}
+
+#cardtitleheb2 {
+    text-align: right;
+}
+
+#cardtitleheb3 {
+    text-align: right;
+}
+
+#cardheb {
+    text-align: right;
+}
+
+#cardheb2 {
+    text-align: right;
+}
+
+#cardheb3 {
+    text-align: right;
+}
+
+/*for cards in Hebrew*/
+
 /* Eurovision section */
 #eurocontainer {
     position: relative;
@@ -85,27 +109,54 @@ img {
     color: white;
 }
 
-#Eurovision {
-    position: absolute;
-    top: 180px;
-    right: -130px;
-    transform: translate(-50%, -50%);
+#Eurovision p {
     font-family: "Shadows Into Light Two", Georgia, cursive;
-    color: gold;
+    color: purple;
     font-size: 50px;
     text-align: center;
     background: rgba(0, 0, 0, 0.0);
+    border-radius: 4px;
+    font-size: 50px;
+    text-align: center;
+
 }
 
-#Eurovision:hover {
-    color: purple;
+#Eurovision p:hover {
+    /**  color: red;
     cursor: pointer;
     transition: 0.2s;
-    background: none;
+    background: none; **/
+    cursor: pointer;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    /* display: inline-block; */
+    font-size: 60px;
+    /* text-align: center; */
+    text-align: center;
 }
 
 #euroNoa {
     opacity: 0.85;
+}
+
+@media (max-width:650px) {
+    iframe {
+        width: auto;
+        height: auto;
+    }
 }
 
 /* Eurovision content */
