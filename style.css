@@ -25,6 +25,15 @@ html {
     background-position: center;
 }
 
+.flag {
+    background-image: url("https: //img.freepik.com/premium-vector/flag-israel_628407-684.jpg");
+    width: 90px;
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
 /*intro */
 #container_intro {
     position: relative;
