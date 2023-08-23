@@ -101,6 +101,10 @@ img {
     margin: 5px;
 }
 
+strong {
+    font-size: 120%;
+}
+
 /*footer */
 #signature {
     background: rgba(0, 0, 0, 0.0);
