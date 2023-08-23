@@ -11,7 +11,10 @@ html {
     display: flex;
     align-items: center;
     background-color: #eee;
+    position: fixed;
 }
+
+
 
 .logo {
     background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHFob3l4eG9hM2s3bjRxYzN5NjB3YmppbTQwOTl6YTh5NDJzMzlvZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4LodJPlAQKq651PVk2/giphy.gif");
@@ -31,7 +34,6 @@ html {
     position: relative;
     font-family: "Shadows Into Light Two", Georgia, cursive;
     color: white;
-    font-size: 500%;
 }
 
 #aboutNoa {
@@ -56,10 +58,15 @@ img {
 /* short biography cards */
 .card {
     width: 75%;
+    overflow: hidden;
+    position: relative;
+    width: 95%; // <-- change it
+    height: 100px;
 }
 
 .card:hover .card-image img {
-    width: 110%;
+    transform: scale(1.1);
+    transition: all 1s;
 }
 
 /* Eurovision section */
@@ -99,7 +106,7 @@ img {
     font-size: 18px;
     padding: 15px;
     margin: 5px;
-    text-align:justify;
+    text-align: justify;
 }
 
 strong {

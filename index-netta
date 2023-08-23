@@ -15,5 +15,19 @@
 </head>
 
 <body>
-    <p>It's Netta! <br> Go back to <a href=index target="_blank">Noa Kirel</a></p>
+    <nav>
+        <header class="nav-wrapper #ce93d8 purple lighten-3">
+            <d class="row">
+                <div class="col s12 m14 l18">
+                    <ul class="right" id="netta">
+                        <li><a href="index" target=>Home</a></li>
+                        <li><a href="https://www.youtube.com/channel/UC1-uIm6HCLwNqKpLYVvEE5w" target="_blank"><i
+                                    class="material-icons">audiotrack</i></a></li>
+                    </ul>
+                </div>
+            </d>
+        </header>
+    </nav>
+
+    <p>It's Netta!</p>
 </body>
