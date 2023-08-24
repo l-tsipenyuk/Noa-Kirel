@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <!--js for mobile icon-->
     <script>
         $(document).ready(function () {
             $(".sidenav").sidenav();
@@ -137,8 +137,10 @@
         </div>
 
         <article>
-            <div class="top-right" id="Eurovision"><p>You
-                wanna see her dance?!</a></p></div>
+            <div class="top-right" id="Eurovision">
+                <p>You
+                    wanna see her dance?!</a></p>
+            </div>
             </div>
             </p>
 
@@ -153,23 +155,40 @@
 
                 <!-- Eurovision content --->
 
-                
-                    <p class="info"><b><i>Epic Eurovision 2023 performance </i></br> In 2023 Noa Kirel represented
-                            Israel
-                            on Eurovision Song Contest with her song <strong>"Unicorn"</strong>. She came in third with
-                            362
-                            points, which was
-                            Israel’s best Eurovision showing since <a href="index-netta">Netta Barzilai </a> won the
-                            contest in
-                            2018 with “Toy". </b>
-                    </p>
 
-                    <!-- Latest Release --->
-                    <p class="info"><b>By August 2023 Noa Kirel's latest release is <strong>"Deja Vu"</strong>. Young
-                            star
-                            keeps
-                            singing, surprising and inspiring hundreds of people in Israel and abroad!</b></p>
-                </article>
+                <p class="info"><b><i>Epic Eurovision 2023 performance </i></br> In 2023 Noa Kirel represented
+                        Israel
+                        on Eurovision Song Contest with her song <strong>"Unicorn"</strong>. She came in third with
+                        362
+                        points, which was
+                        Israel’s best Eurovision showing since <a href="index-netta">Netta Barzilai </a> won the
+                        contest in
+                        2018 with “Toy". </b>
+                </p>
+
+                <!-- Latest Release --->
+                <p class="info"><b>By August 2023 Noa Kirel's latest release is <a
+                            href="https://www.youtube.com/watch?v=4--8fjxjkYU" target="_blank">Deja Vu </a>. Young
+                        star
+                        keeps
+                        singing, surprising and inspiring hundreds of people in Israel and abroad!</b></p>
+        </article>
+
+        <!-- a bit js for text scrolling-->
+        <marquee id="text_scroll" style="font-family:Book Antiqua; color: #FFFFFF" bgcolor="#000080">
+            <div onMouseOver="document.getElementById('scroll_news').stop();"
+                onMouseOut="document.getElementById('scroll_news').start();" <p>The popular US YouTube series React,
+                which has teenagers, students, adults, etc. react to different
+                aspects of pop
+                culture, asked participants to guess the rankings of the top 10 songs from the 2023 Eurovision Song
+                Contest.
+                Israel's representative Noa Kirel's "Unicorn" performance was shown to them right after Belgium, and
+                almost all of the
+                enthusiastic viewers were quick to rank it as the top spot on the list. It should be noted that most
+                of these viewers – as is the case with most Americans – didn't watch Eurovision and had no
+                idea which song actually won. </p>
+            </div>
+        </marquee>
     </main>
 
 

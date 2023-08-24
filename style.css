@@ -54,11 +54,7 @@ img {
     clear: both;
 }
 
-#Netta {
-    font-size: 70px;
-    font-family: "Shadows Into Light Two", Georgia, cursive;
-    text-color: purple;
-}
+
 
 /* short biography cards */
 .card {
@@ -173,8 +169,41 @@ strong {
     font-size: 120%;
 }
 
+/*text scroll*/
+#text_scroll {
+    background-color: #6E518D;
+    text-align: center;
+    padding-top: 0.7%;
+}
+
+
+/*Netta*/
+
+#Netta {
+    font-size: 70px;
+    font-family: "Shadows Into Light Two", Georgia, cursive;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    /* display: inline-block; */
+    font-size: 60px;
+    /* text-align: center; */
+    text-align: left;
+}
+
 /*footer */
 #signature {
-    background: rgba(0, 0, 0, 0.0);
     text-align: center;
 }
