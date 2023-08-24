@@ -6,6 +6,12 @@ html {
     background-color: rgba(170, 85, 133, 0.4);
 }
 
+@media (max-width:650px) {
+    iframe {
+        width: auto;
+        height: auto;
+    }
+}
 
 .logo {
     background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHFob3l4eG9hM2s3bjRxYzN5NjB3YmppbTQwOTl6YTh5NDJzMzlvZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4LodJPlAQKq651PVk2/giphy.gif");
@@ -32,7 +38,21 @@ html {
 .header {
     position: relative;
     font-family: "Shadows Into Light Two", Georgia, cursive;
-    color: white;
+    /* color: white; */
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+/*glowing text - from here https: //www.w3schools.com/howto/howto_css_glowing_text.asp*/
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
 }
 
 #aboutNoa {
@@ -41,6 +61,7 @@ html {
     right: 10px;
     font-size: 10px;
     background: rgba(0, 0, 0, 0.0);
+
 }
 
 img {
@@ -96,7 +117,7 @@ img {
     text-align: right;
 }
 
-/*for cards in Hebrew*/
+/*for cards in Hebrew --end*/
 
 /* Eurovision section */
 #eurocontainer {
@@ -148,12 +169,7 @@ img {
     opacity: 0.85;
 }
 
-@media (max-width:650px) {
-    iframe {
-        width: auto;
-        height: auto;
-    }
-}
+
 
 /* Eurovision content */
 .info {
@@ -201,6 +217,13 @@ strong {
     font-size: 60px;
     /* text-align: center; */
     text-align: left;
+}
+
+#nettacard {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 /*footer */
