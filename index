@@ -135,7 +135,8 @@
                 </div>
             </div>
         </div>
-
+        
+<!-- Eurovision section --->
         <article>
             <div class="top-right" id="Eurovision">
                 <p>You
@@ -144,7 +145,7 @@
             </div>
             </p>
 
-            <!-- Eurovision section --->
+          
             <div class="container" id="eurocontainer">
                 <div class="col s12 m14 l18">
 
