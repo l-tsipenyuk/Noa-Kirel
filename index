@@ -64,7 +64,7 @@
             <div class="row">
                 <div class="col-*-*"></div>
             </div>
-            <img src="https://images.ctfassets.net/tyagww523muq/1UvzGTSGveCEgHEN4l75Fs/dc8010afebe9cd21cb04907947ffecf4/GettyImages-1405162203.jpeg?w=1045&h=588&q=90&fit=fill&f=faces"
+            <img src="Noa1.jpeg"
                 alt="">
             <div id="aboutNoa">
                 <h2 class="header">Israeli pop sensation </br> & superstar</h2>
@@ -76,7 +76,7 @@
             <div class="col m4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="https://lastfm.freetls.fastly.net/i/u/500x500/d14e17487bef24f679bc96250c2d243a.jpg">
+                        <img src="Noa2.png">
                         <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Childhhood & Early
                             Career</span>
                     </div>
@@ -96,7 +96,7 @@
                 <div class="card">
                     <div class="card-image">
                         <img
-                            src="https://lastfm.freetls.fastly.net/i/u/770x0/fc39f8046ceff5d5292e0ca14e655cb0.jpg#fc39f8046ceff5d5292e0ca14e655cb0">
+                            src="Noa3.png">
                         <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Greatest
                             Hits</span>
                     </div>
@@ -117,7 +117,7 @@
                 <div class="card">
                     <div class="card-image">
                         <img
-                            src="https://lastfm.freetls.fastly.net/i/u/770x0/a957a0cd5574e4b9e2100606168ae184.jpg#a957a0cd5574e4b9e2100606168ae184">
+                            src="Noa4.png">
                         <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Awards &
                             Recognition</span>
                     </div>
